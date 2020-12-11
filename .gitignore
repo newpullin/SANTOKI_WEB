@@ -133,3 +133,6 @@ backend/.idea/
 
 # secret
 backend/secrets.json
+
+#migrations
+backend/notice/migrations/
