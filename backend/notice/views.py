@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from django.views.generic import ListView, DetailView
 
-# Create your views here.
+from notice.models import Notice
+
+
+class NoticeLV(ListView):
+    model = Notice
+
+
+class NoticeDV(DetailView):
+    model = Notice
