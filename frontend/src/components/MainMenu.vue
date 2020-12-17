@@ -13,6 +13,10 @@
       <v-btn text class="ma-2" href="/dbox/"> D-box </v-btn>
       <v-btn text class="ma-2" href="/about/"> About </v-btn>
       <v-btn text class="ma-2" href="/notice/list/"> Notice </v-btn>
+      <v-btn text class="ma-2" href="https://shopping.naver.com/">
+        <v-icon large class="ma-1" color="red lighten-3"> mdi-gift </v-icon>
+        Shop
+      </v-btn>
       <v-spacer></v-spacer>
     </v-app-bar>
   </div>

@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <MainMenu></MainMenu>
 
-    <v-main> notice list </v-main>
+    <v-main> <NoticeList></NoticeList> </v-main>
 
     <Footer fluid></Footer>
   </v-app>
@@ -11,8 +11,9 @@
 <script>
 import MainMenu from "../components/MainMenu.vue";
 import Footer from "../components/Footer.vue";
+import NoticeList from "../components/NoticeList";
 export default {
-  components: { MainMenu, Footer },
+  components: { MainMenu, Footer, NoticeList },
   data: () => ({
     //drawer: null,
   }),

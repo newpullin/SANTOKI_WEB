@@ -22,9 +22,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', views.HomeView.as_view(), name='home'),
-    path('rabbit/', views.RabbitView.as_view(),name='rabbit'),
-    path('carrot/', views.CarrotView.as_view(),name='carrot'),
-    path('about/', views.AboutView.as_view(),name='about'),
-    path('dbox/', views.DboxView.as_view(),name='dbox'),
-    path('notice/', include('notice.urls'))
+    path('rabbit/', views.RabbitView.as_view(), name='rabbit'),
+    path('carrot/', views.CarrotView.as_view(), name='carrot'),
+    path('about/', views.AboutView.as_view(), name='about'),
+    path('dbox/', views.DboxView.as_view(), name='dbox'),
+
+    path('notice/', include('notice.urls')),
+    path('api/', include('api.urls')),
 ]
