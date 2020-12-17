@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <MainMenu></MainMenu>
 
-    <v-main> <Home fluid></Home> </v-main>
+    <v-main> rabbit </v-main>
 
     <Footer fluid></Footer>
   </v-app>
@@ -11,9 +11,8 @@
 <script>
 import MainMenu from "../components/MainMenu.vue";
 import Footer from "../components/Footer.vue";
-import Home from "../components/Home";
 export default {
-  components: { MainMenu, Footer, Home },
+  components: { MainMenu, Footer },
   data: () => ({
     //drawer: null,
   }),

@@ -1,11 +1,11 @@
-from django.views.generic import ListView, DetailView
+from django.views.generic import TemplateView
 
 from notice.models import Notice
 
 
-class NoticeLV(ListView):
-    model = Notice
+class NoticeLV(TemplateView):
+    template_name = 'notice/notice_list.html'
 
 
-class NoticeDV(DetailView):
-    model = Notice
+class NoticeDV(TemplateView):
+    template_name = 'notice/notice_detail.html'
