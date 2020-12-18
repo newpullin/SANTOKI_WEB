@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
-# Create your views here.
+from notice.models import Notice
+
+
+class NoticeLV(TemplateView):
+    template_name = 'notice/notice_list.html'
+
+
+class NoticeDV(TemplateView):
+    template_name = 'notice/notice_detail.html'
