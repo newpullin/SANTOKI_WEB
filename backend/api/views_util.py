@@ -15,6 +15,7 @@ def obj_to_post(obj):
 
     return post
 
+
 def prev_next_post(obj):
     try:
         prev_obj = obj.get_prev()
