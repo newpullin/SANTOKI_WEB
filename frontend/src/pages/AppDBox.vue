@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <MainMenu></MainMenu>
 
-    <v-main> dbox </v-main>
+    <v-main> <DBox></DBox> </v-main>
 
     <Footer fluid></Footer>
   </v-app>
@@ -11,8 +11,9 @@
 <script>
 import MainMenu from "../components/MainMenu.vue";
 import Footer from "../components/Footer.vue";
+import DBox from "../components/DBox.vue";
 export default {
-  components: { MainMenu, Footer },
+  components: { MainMenu, Footer, DBox },
   data: () => ({
     //drawer: null,
   }),

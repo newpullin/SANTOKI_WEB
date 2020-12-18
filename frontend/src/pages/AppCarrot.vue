@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <MainMenu></MainMenu>
 
-    <v-main> carrot </v-main>
+    <v-main><Carrot></Carrot></v-main>
 
     <Footer fluid></Footer>
   </v-app>
@@ -11,8 +11,9 @@
 <script>
 import MainMenu from "../components/MainMenu.vue";
 import Footer from "../components/Footer.vue";
+import Carrot from "../components/Carrot.vue";
 export default {
-  components: { MainMenu, Footer },
+  components: { MainMenu, Footer, Carrot },
   data: () => ({
     //drawer: null,
   }),
