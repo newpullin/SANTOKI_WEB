@@ -64,7 +64,7 @@ export default {
         },
         {
           title: "D-box",
-          to: "/dobx/",
+          to: "/dbox/",
           icon: "mdi-box",
         },
         {
