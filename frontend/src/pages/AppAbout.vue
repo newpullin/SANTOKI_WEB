@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <MainMenu></MainMenu>
 
-    <About fluid></About>
+    <v-main><About fluid></About></v-main>
 
     <Footer fluid></Footer>
   </v-app>

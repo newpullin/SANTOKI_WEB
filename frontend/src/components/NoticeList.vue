@@ -59,6 +59,10 @@ export default {
           alert(err.response.status + " " + err.response.statusText);
         });
     },
+    serverPage(item) {
+      console.log("serverPages()...", item);
+      location.href = `/notice/${item.id}/`;
+    },
   },
   created() {
     this.fetchPostList();

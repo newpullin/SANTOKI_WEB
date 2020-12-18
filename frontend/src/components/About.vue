@@ -1,15 +1,14 @@
 <template>
   <v-container fluid class="pa-0">
-    <v-card-text height="300px"></v-card-text>
-    <v-divider></v-divider>
+    <v-card-text height="500px"></v-card-text>
     <v-img
-      lazy-src="https://picsum.photos/10/15"
+      :src="require('../assets/office.jpg')"
+      class="my-9"
       max-height="300px"
       max-width="100%"
-      src="https://picsum.photos/500/300"
     ></v-img>
 
-    <v-card-text class="mt-3 text-center">
+    <v-card-text class="mt-9 text-center">
       <br /><br />
       <h1>산토끼</h1>
       <br /><br />
@@ -25,12 +24,12 @@
     </v-card-text>
 
     <v-img
-      lazy-src="https://picsum.photos/10/10"
+      :src="require('../assets/code.jpg')"
+      class="my-9"
       max-height="300px"
       max-width="100%"
-      src="https://picsum.photos/500/310"
     ></v-img>
-    <v-card-text class="mt-3 text-center">
+    <v-card-text class="mt-9 text-center">
       <br /><br />
       <h1>사이트 개발 환경</h1>
       <br /><br />
@@ -42,15 +41,12 @@
       </p>
       <br /><br />
     </v-card-text>
-    <v-img
-      lazy-src="https://picsum.photos/10/6"
-      max-height="300px"
-      max-width="100%"
-      src="https://picsum.photos/500/320"
-      class="mt-3 justify-center"
-    ></v-img>
-
-    <v-card-text class="mt-3 text-center">
+    <v-parallax
+      height="300"
+      :src="require('../assets/diy.jpg')"
+      class="my-9"
+    ></v-parallax>
+    <v-card-text class="mt-9 text-center">
       <br /><br />
       <h1>왜 산토끼 인가?</h1>
       <br /><br />
